@@ -139,7 +139,7 @@ img {
   background-color: var(--second-background-color);
   display: block;
   border-radius: 2px;
-  transform: translatey(23px);
+  transform: translateY(23px);
 }
 
 .header-list.list {
@@ -632,7 +632,7 @@ img {
   padding: 40px 32px 164px;
   background-color: #4d5ae5;
   height: 100%;
-  transform: translatey(100%);
+  transform: translateY(100%);
   transition: transform var(--tra);
 }
 
@@ -647,11 +647,11 @@ img {
 }
 
 .examples-item:hover .examples-cover-text {
-  transform: translatey(0);
+  transform: translateY(0);
 }
 
 .examples-item-link:focus .examples-cover-text {
-  transform: translatey(0);
+  transform: translateY(0);
 }
 
 .examples-item-info {
